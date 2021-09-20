@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./CSS/style.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <nav class="container">
+            <div class="menu">
+                <img src="./IMG/Group 363.svg" alt="LOGO">
+                <div class="tags">
+                    <a href="#">Menu</a>
+                    <a href="#">About</a>
+                    <a href="#">Feature</a>
+                    <a href="#">Gallary</a>
+                </div>
+            </div>
+            <button class="btn">Buy now</button>
+        </nav>
+        <div class="container">
+            <div class="swiper mySwiper ">
+                <div class="swiper-wrapper ">
+                    <div class="swiper-slide">
+                        <div class="slide">
+                            <div>
+                                <p>Life is better in running <span> shoes.</span>
+                                </p>
+                                <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas
+                                    leo
+                                    ultrices </p>
+                            </div>
+                            <div class="img">
+                                <img src="./IMG/PUMA.png" alt="shoes">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide">
+                            <div>
+                                <p>Life is better in running <span> shoes.</span>
+                                </p>
+                                <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas
+                                    leo
+                                    ultrices </p>
+                            </div>
+                            <div class="img">
+                                <img src="./IMG/PUMA.png" alt="shoes">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide">
+                            <div>
+                                <p>Life is better in running <span> shoes.</span>
+                                </p>
+                                <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas
+                                    leo
+                                    ultrices </p>
+                            </div>
+                            <div class="img">
+                                <img src="./IMG/PUMA.png" alt="shoes">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide">
+                            <div>
+                                <p>Life is better in running <span> shoes.</span>
+                                </p>
+                                <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas
+                                    leo
+                                    ultrices </p>
+                            </div>
+                            <div class="img">
+                                <img src="./IMG/PUMA.png" alt="shoes">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </header>
+    <div class="container BuyCAr">
+        <div class="BuyCard">
+            <div class="BRDR dv">
+                <p>Brand</p>
+                <span>Puma <img src="./IMG/Vector.png" alt="arrow" class="arrow"></span>
+            </div>
+            <div class="BRDR dv">
+                <p>Person</p>
+                <span>man <img src="./IMG/Vector.png" alt="arrow" class="arrow"></span>
+            </div>
+            <div class="BRDR dv">
+                <p>Size</p>
+                <span>large <img src="./IMG/Vector.png" alt="arrow" class="arrow"></span>
+            </div>
+            <div class="price dv">
+                <p>Price</p>
+                <span>$150 <img src="./IMG/Vector.png" alt="arrow" class="arrow"></span>
+            </div>
+            <button class="btn">Buy now</button>
+        </div>
+    </div>
+    <section class="container slide video">
+        <div>
+            <span> VIDEO</span>
+            <p>Desire the feel of satisfaction.
+            </p>
+            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas leo ultrices
+                commauris risus. </p>
+        </div>
+        <div class="img">
+            <img src="./IMG/Group382.png" alt="shoes">
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <script type="module" src="./JS/script.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            spaceBetween: 30,
+            centeredSlides: true,
+            loop: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+</body>
+
+</html>
